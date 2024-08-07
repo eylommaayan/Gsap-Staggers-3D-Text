@@ -1,38 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@800&family=Staatliches&display=swap');
-
-
-
 body {
-  background:#12171b;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  flex-direction:column;
-  
+  background: #12171b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 * {
-  position:relative;
+  position: relative;
 }
 
 .rotatingHeader {
-  width:fit-content;
-  white-space:nowrap;
-  padding-bottom:50px;
+  width: fit-content;
+  white-space: nowrap;
+  padding-bottom: 50px;
 }
 
-.rotatingHeader h1{
+.rotatingHeader h1 {
   font-family: 'Saira Extra Condensed', sans-serif;
-  color:#444;
-  font-size:100px;
-  margin:0;
-  padding:0;
-  line-height:1;
-  perspective:600px;
+  color: #444;
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  perspective: 600px;
 }
 
 .rotatingHeader h1:nth-child(2) {
-  color:#efefef;
+  color: #efefef;
 }
 
 h1 div {
@@ -40,5 +35,5 @@ h1 div {
 }
 
 .spacer {
-  height:60vh;
+  height: 60vh;
 }
